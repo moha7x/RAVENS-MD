@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN  git clone https://github.com/moha7x/RAVENS-MD/root/Zokou_BOt
-WORKDIR /root/Zokou_Bot/
+RUN  git clone https://github.com/moha7x/RAVENS-MD
+WORKDIR /moha7x/RAVENS-MD/
 
 
 
